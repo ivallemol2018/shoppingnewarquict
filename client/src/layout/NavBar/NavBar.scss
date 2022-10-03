@@ -1,0 +1,27 @@
+.main-header{
+  width: 97%;
+  display: flex;
+  padding: 10px 25px;
+  box-shadow: 1px 5px 15px #81818129;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  .container-logo{
+      width: 80px;
+      .img-header {
+          width: 180px;
+      }
+  }
+  .navbar {
+      display: flex;
+      li{
+          margin-right: 15px;
+          Button{
+              a{
+                  text-decoration: none;
+                  color: black;
+              }
+          }
+      }
+  }
+}

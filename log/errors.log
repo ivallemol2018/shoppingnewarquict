@@ -1,0 +1,8 @@
+[2022-10-03T14:03:16.258] [ERROR] error - There was an error trying to save the shoppingCart
+[2022-10-03T14:58:28.225] [ERROR] error - There was an error trying to save the shoppingCart TypeError: this.model is not a constructor
+[2022-10-03T15:02:24.700] [ERROR] error - There was an error trying to delete the shoppingCart
+[2022-10-03T15:04:10.165] [ERROR] error - There was an error trying to delete the shoppingCart TypeError: shoppingCarts.deleteById is not a function
+[2022-10-03T15:57:05.002] [ERROR] error - There was an error trying to get all products
+[2022-10-03T15:57:05.015] [ERROR] error - There was an error trying to get all products
+[2022-10-03T15:57:14.237] [ERROR] error - There was an error trying to get all products
+[2022-10-03T15:57:14.249] [ERROR] error - There was an error trying to get all products

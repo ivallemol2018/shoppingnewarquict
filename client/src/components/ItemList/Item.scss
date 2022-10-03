@@ -1,0 +1,70 @@
+.p-box{
+  margin: 0 auto;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40px 2fr 1fr;
+  width: 400px;
+  min-width: 200px;
+  height: 600px;
+  min-height: 300px;
+  border-radius: 10px;
+  background-color: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  .p-top{
+      grid-row: 1 / 2;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0 8px;
+      z-index: 55;
+      .css-3cm1w6-MuiButtonBase-root-MuiFab-root{
+          justify-self: left;
+          align-self: center;
+          margin: 8px;
+      }
+      .p-price{
+          justify-self: end;
+          align-self: center;
+          font-size: 23px;
+          font-weight: 600;
+      }
+  }
+  img{
+      width: 70%;
+      grid-row: 2 / 3;
+      position: relative;
+      margin: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .p-desc{
+      grid-row: 3 / 4;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, minmax(1em, 1.5em));
+      align-items: center;
+      justify-items: center;
+      padding-top: 5px;
+      .p-product{
+          font-size: 28px;
+          padding-top: 20px;
+      }
+      .p-category{
+          color: gray;
+          font-size: 20px;
+          padding-top: 55px;
+      }
+      .css-1okj3ks-MuiStack-root{
+          padding-top: 60px;
+      }
+      .p-btn{
+          margin-top: 30px;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+  }
+}
+.p-box:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,56 @@
+.ItemDetail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  width: 1200px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 0 20px;
+  .Item-container{
+      display: flex;
+      width: 1200px;
+      height: auto;
+      .img-container{
+          padding-top: 60px;
+          img{
+              width: 420px;
+          }
+      }
+      .ItemDetail-details{
+          padding: 30px;
+          text-align: center;
+          .ItemDetail-title{
+              font-size: 40px;
+          }
+          .ItemDetail-price{
+              font-size: 30px;
+              color: #1976d2;
+          }
+          .Rating-Fav-container{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              padding-bottom: 10px;
+          }
+          .btnIrAlCarrito{
+              padding-top: 20px;
+              Button{
+                  margin: 10px;
+              }
+          }
+          .send-container{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              padding-top: 10px;
+              p{
+                  font-size: 20px;
+              }
+          }
+      }
+  }
+}

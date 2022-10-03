@@ -1,0 +1,20 @@
+.ContainerItemCount{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 20px 30px;
+  .ButtonsGroup{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+  }
+  .availableStock{
+      padding-bottom: 20px;
+      color: #1976d2;
+  }
+  .btnBuy{
+      display: flex;
+      justify-content: center;
+  }
+}
